@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-ibkd
     spec:
       containers:
-      - image: quay.io/mkovarik/test-images:1dc49577534e4fa1ae349e842b099cc5
+      - image: quay.io/mkovarik/test-images@sha256:62926fbb6edaedc9c24ad157e7033835a1ce0157a7418da3ac903084202cee24
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
